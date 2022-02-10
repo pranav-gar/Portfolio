@@ -1,0 +1,194 @@
+
+body{
+  background-color:black;
+}
+h1{
+  color:#AAFFE7;
+}
+body {font-family: "Lato", sans-serif;}
+
+
+.main {
+  margin-left: 0px;
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+h2{
+  color:#d8d193;
+  margin-top:10%;
+}
+p{
+  color:#FFBCE9;
+    margin-top:6%;
+}
+.t{
+  color: #6AFF44;
+}
+.z{
+  color: #FFC38D;
+}
+ul li {
+  list-style-type: none;
+  display: inline;
+  margin-right: 100px;
+  margin-left:0px;
+  color: rgb(255, 255, 255);
+    font-size:22px;
+}
+
+  nav ul li a {
+  text-decoration: none;
+  color: white;
+  letter-spacing:1px;
+  font-size:22px;
+  transition:.3s;
+}
+
+  nav ul li a:hover{
+  color:#f3950d;
+  cursor:pointer;
+  text-decoration:underline;
+  }
+    
+  .zebra{
+   font-size:19px; 
+     margin-top:10%;
+     color: #f3950d;
+  }  
+    .m{
+      color: #9190FF;
+    }
+  p{
+    font-size: 19px;
+  } 
+  body {font-family: Arial, Helvetica, sans-serif;}
+     
+  input[type=text], input[type=password], input[type=Email], input[type=tel] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  button:hover {
+    background-color:black;
+    color:red;
+  }
+  
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+  }
+  
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+  }
+  
+  img.avatar {
+    width: 40%;
+    border-radius: 50%;
+  }
+  
+  .container {
+    padding: 16px;
+  }
+  
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+  
+  
+  .modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+    padding-top: 60px;
+  }
+  
+  .modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; 
+    border: 1px solid #888;
+    width: 80%; 
+    }
+  
+  .close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: red;
+    cursor: pointer;
+  }
+  
+  .animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+  }
+  
+  @-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+  }
+    
+  @keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+  }
+  
+  @media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+  }
+  
+  label{
+    color:black;
+  }
+   .prabhtej{
+     color:#fefefe;
+   } 
+    legend{
+      color: #fefefe;
+    }
+    
+    
+
+  
